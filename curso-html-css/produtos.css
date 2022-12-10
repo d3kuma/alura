@@ -1,0 +1,26 @@
+header {
+    background: #BBBBBB;
+}
+
+nav{
+    /* Position pode ser:
+    static: padrão, faz parte de seu elemento pai
+    relative: consigo mexer na posição, mas fica no msm lugar;
+    absolute: consigo mexer nele e o ponto inicial muda */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}

@@ -1,0 +1,53 @@
+.titulo-principal{
+    padding-left:20px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#missao{
+    font-size: 20px;
+}
+
+em strong{
+    color: #FF0000;
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+ul{
+    /*há 3 tipos de display
+    block = bloqueia toda a linha 
+    inline = não bloqueia a linha, mas não deixa mexer no espaçamento
+    inline-block = combinação dos 2, bloqueando a linha (largura) e deixando mexer no espaçamento */
+    display: inline-block;
+    /* alinhar os elementos pelo topo invés de alinhar pela base, que é o padrão */
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagem-beneficios{
+    width: 50%;
+}
