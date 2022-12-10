@@ -1,5 +1,13 @@
 header {
     background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    /* largura padrão */
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 nav{
@@ -8,7 +16,7 @@ nav{
     relative: consigo mexer na posição, mas fica no msm lugar;
     absolute: consigo mexer nele e o ponto inicial muda */
     position: absolute;
-    top: 0;
+    top: 110px;
     right: 0;
 }
 
