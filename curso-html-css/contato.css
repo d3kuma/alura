@@ -1,0 +1,37 @@
+header{
+background-color: #bbbbbb;
+padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+main{
+    height: 100vh;
+}
+
+footer{
+    background-color: #cccccc;
+    background: url(bg.jpg);
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p{
+    color: #ffffff;
+    text-align: center;
+}
