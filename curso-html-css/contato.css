@@ -1,12 +1,36 @@
 header{
-background-color: #bbbbbb;
-padding: 20px 0;
+    background-color: #bbbbbb;
+    padding: 20px 0;
 }
 
 .caixa{
     position: relative;
     width: 940px;
     margin: 0 auto;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+form label, input{
+    display: block;
 }
 
 nav{
@@ -20,8 +44,12 @@ nav li{
     margin: 0 0 0 15px;
 }
 
-main{
-    height: 100vh;
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 footer{
