@@ -63,12 +63,15 @@ nav a {
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transition: 1s background;
+    /* Se mudarmos de background para all, o efeito de transição se aplica a todos */
+    transition: 1s all;
 }
 
 .enviar:hover{
     background-color: darkorange;
     cursor: pointer;
+    /* propriedade para transformar usando a transition em 20% */
+    transform: scale(1.2);
 }
 
 footer{
