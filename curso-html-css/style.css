@@ -1,4 +1,10 @@
 /* css da página inicial */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body{
+	font-family: Montserrat;
+}
+
 .banner {
     width:100%;
 }
@@ -28,8 +34,47 @@
     margin: 0 20px 20px 0;
 }
 
-.imagembeneficios {
+.mapa{
+	padding: 3em 0;
+}
+
+.conteudo-beneficios{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+	padding: 3em 0;
+}
+
+.lista-beneficios{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens:first-child{
+	font-weight: bold;
+}
+
+.itens{
+	line-height: 1.5;
+}
+
+.imagem-beneficios {
     width: 60%;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
 }
 
 header {
@@ -182,3 +227,9 @@ td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
+}
+
