@@ -1,80 +1,8 @@
-/* css da página inicial */
+/* css global */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 body{
 	font-family: Montserrat;
-}
-
-.banner {
-    width:100%;
-}
-
-.titulo-principal {
-    text-align: center;
-    font-size: 2em;
-    margin: 0 0 1em;
-    clear: left;
-}
-
-.principal p {
-    margin: 0 0 1em;
-}
-
-.principal strong {
-    font-weight: bold;
-}
-
-.principal em {
-    font-style: italic;
-}
-
-.utensilios {
-    width: 120px;
-    float: left;
-    margin: 0 20px 20px 0;
-}
-
-.mapa{
-	padding: 3em 0;
-}
-
-.conteudo-beneficios{
-	width: 640px;
-	margin: 0 auto;
-}
-
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-	padding: 3em 0;
-}
-
-.lista-beneficios{
-	width: 40%;
-	display: inline-block;
-	vertical-align: top;
-}
-
-.itens:first-child{
-	font-weight: bold;
-}
-
-.itens{
-	line-height: 1.5;
-}
-
-.imagem-beneficios {
-    width: 60%;
-}
-
-.mapa p{
-	margin: 0 0 2em;
-	text-align: center;
-}
-
-.video {
-    width: 560px;
-    margin: 2em auto;
 }
 
 header {
@@ -112,6 +40,117 @@ nav a:hover {
 	text-decoration: underline;
 }
 
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+/* css home */
+
+.banner {
+    width:100%;
+}
+
+.principal{
+	background: #ffffff;
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.titulo-principal:before{
+	content: "[ ";
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.titulo-principal:after{
+	content: " ]";
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.mapa{
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapa-conteudo{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.beneficios {
+	background: #888888;
+	padding: 3em 0;
+}
+
+.conteudo-beneficios{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens:before{
+	content: "\2702  ";
+}
+
+.itens:first-child{
+	font-weight: bold;
+}
+
+.itens{
+	line-height: 1.5;
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+/* css produtos */
+
 .produtos {
 	width: 940px;
 	margin: 0 auto;
@@ -138,13 +177,13 @@ nav a:hover {
 	border-color: #088C19;	
 }
 
-.produtos li:hover h2 {
-	font-size: 34px;
-}
-
 .produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
 }
 
 .produto-descricao {
@@ -157,20 +196,10 @@ nav a:hover {
 	margin-top: 10px;
 }
 
-footer {
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
-}
+/* css contato */
 
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
-}
-
-main {
-	width: 940px;
+.main-form{
+	width: 970px;
 	margin: 0 auto;
 }
 
@@ -226,10 +255,5 @@ thead {
 td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
-}
-
-.principal{
-	background: #CCCCCC;
-	padding: 30px;
 }
 
